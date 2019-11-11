@@ -1,0 +1,18 @@
+<h1 class="m-3">Stupid Coach Answers Your Question</h1>
+
+<div class="m-3 border-left alert alert-light">
+  <p class="ml-2"><%= @question %></p>
+  <p class="ml-2"> <em>- You</em></p>
+
+</div>
+
+<div class ="m-3 border-left alert alert-warning">
+  <p class="ml-2"><%= @answer %></p>
+  <p class="ml-2"> <em>- Your coach</em></p>
+</div>
+
+
+
+<p class=" m-3"><%= link_to "Ask a new question", ask_path, :class => "btn btn-primary" %></p>
+
+
